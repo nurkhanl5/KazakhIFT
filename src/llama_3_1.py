@@ -1,5 +1,12 @@
 from huggingface_hub import login
-huggingface_token = "Your token"
+#from kaggle_secrets import UserSecretsClient
+#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
+'''secret_label = "HF Hub"
+secret_value = UserSecretsClient().get_secret(secret_label)
+login(token=secret_value)
+'''
+# Replace "your_huggingface_token" with your actual Hugging Face token
+huggingface_token = "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"
 
 # Log in to Hugging Face Hub
 login(token=huggingface_token)
