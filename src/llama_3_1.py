@@ -1,5 +1,5 @@
 from huggingface_hub import login
-huggingface_token = "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"
+huggingface_token = "Your token"
 
 # Log in to Hugging Face Hub
 login(token=huggingface_token)
